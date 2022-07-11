@@ -21,6 +21,7 @@ class _MyAppState extends State<MyApp> {
           child: Scaffold(
             backgroundColor: Colors.teal,
             appBar: AppBar(
+              backgroundColor: Colors.teal,
               bottom: TabBar(tabs: [Text('List'), Text('Grid')]),
             ),
             body:
