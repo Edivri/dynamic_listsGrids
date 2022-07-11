@@ -22,7 +22,7 @@ class _MyAppState extends State<MyApp> {
             backgroundColor: Colors.teal,
             appBar: AppBar(
               backgroundColor: Colors.teal,
-              bottom: TabBar(tabs: [Text('List'), Text('Grid')]),
+              bottom: TabBar(tabs: [Text('myList'), Text('myGrid')]),
             ),
             body:
                 TabBarView(children: [_contentListView(), _contentGridView()]),
