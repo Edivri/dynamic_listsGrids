@@ -10,15 +10,16 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  final _users = List.filled(100, "kilo loco");
+  final _users = List.filled(100, "Edivri");
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: DefaultTabController(
           length: 2,
           child: Scaffold(
-            backgroundColor: Colors.white70,
+            backgroundColor: Colors.teal,
             appBar: AppBar(
               bottom: TabBar(tabs: [Text('List'), Text('Grid')]),
             ),
